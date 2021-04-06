@@ -63,7 +63,7 @@ public class PaintBall : MonoBehaviour
                     score = score * -1;
                 }
                 Debug.Log("score :" + score);
-                playerObject.GetComponent<Player>().setScore(score);
+                //playerObject.GetComponent<Player>().setScore(score);
                 
                 //GUI_Script.SetScore(score);
             }
