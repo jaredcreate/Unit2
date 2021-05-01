@@ -5,7 +5,6 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     public GameObject Paintball_Prefab;
-    //public GameObject Player_Prefab;
     public GameObject Player_Camera;
     public int scoreCount = 0;
 

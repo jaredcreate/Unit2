@@ -23472,6 +23472,28 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1906555879}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1914541256 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: 5e9e851c0e142814dac026a256ba2ac0,
+    type: 3}
+  m_PrefabInstance: {fileID: 1100469560}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1914541261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1914541256}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cade866776b864742b3b1499e364b766, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Paintball_Prefab: {fileID: 3650145476550432138, guid: c4771071b05d3fb43955d7dfd9a96e78,
+    type: 3}
+  Player_Camera: {fileID: 420166449}
+  scoreCount: 0
 --- !u!1001 &1915327272
 PrefabInstance:
   m_ObjectHideFlags: 0

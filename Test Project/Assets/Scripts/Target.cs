@@ -24,7 +24,6 @@ public class Target : MonoBehaviour
         posX1 = transform.position.x;
         posX2 = transform.position.x+30;
         //transform.position = new Vector3(0, 0, 0);
-
     }
 
     // Update is called once per frame
@@ -38,21 +37,17 @@ public class Target : MonoBehaviour
                 break;
             case 2:
                 ///moveOrbit();
-                //moveVerticla();
+                //moveVertical();
                 break;
             default:
                 //moveOrbit();
                 break;
         }
-
     }
 
     private void moveOrbit()
-    {
-        
+    {   
         transform.RotateAround(OrbitTarget.transform.position, Vector3.left, 20 * Time.deltaTime);
-        
-
     }
    
 

@@ -44,14 +44,12 @@ public class PaintBall : MonoBehaviour
             float distance;
             float scaleHit;
             int score;
-            //Debug.Log(hasHit.point.x - hasHit.transform.localPosition.x);
-            //hasHit.point
+
             GameObject Paintball_Splatter = Instantiate(Paintball_Splatter_Prefab, hasHit.point + hasHit.normal * 0.001f,Quaternion.identity) as GameObject;
             Paintball_Splatter.transform.LookAt(hasHit.point + hasHit.normal);
             Paintball_Splatter.transform.parent = hasHit.transform;
             hitTrue = true;
-            //string name = hasHit.collider.name;
-            //Debug.Log("name :" + name);
+
             if (hasHit.collider.tag == "Target") 
             {
                 distance = Vector2.Distance(Paintball_Splatter.transform.localPosition, new Vector2(0.0f, 0.0f)) * 100.0f;
